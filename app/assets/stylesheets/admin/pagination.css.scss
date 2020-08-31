@@ -1,0 +1,31 @@
+// Place all the styles related to the staff/top controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import '../shared/colors';
+@import '../shared/dimensions';
+
+nav.pagination {
+	margin: $moderate 0;
+	padding: $moderate 0;
+	display: inline-block;
+	border-top: solid $very_light_gray 1px;
+	border-bottom: solid $very_light_gray 1px;
+	span.page, span.first, span.prev, span.next, span.last {
+	  display: inline-block;
+	  background-color: $light_gray;
+	  padding: $narrow $moderate;
+	  a {
+		text-decoration: none;
+	  }
+    }
+	span.current {
+	  background-color: $dark_gray;
+	  color: $light_gray;
+    }
+	span.disabled {
+	  color: $gray;
+    }
+	span.gap {
+	  background-color: transparent;
+    }
+}

@@ -1,0 +1,8 @@
+// Place all the styles related to the staff/top controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import '../shared/colors';
+@import url("../shared/layout.css.scss");
+div#wrapper { background-color: $magenta }
+header { background-color: $dark_magenta }
+footer { background-color: $dark_gray }

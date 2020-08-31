@@ -1,0 +1,11 @@
+@import '../shared/colors';
+@import '../shared/dimensions';
+@import url("../shared/form.css.scss");
+
+div#wrapper {
+  div#container {
+    div#generic-form {
+      border: solid 4px $dark_cyan;
+    }
+  }
+}
